@@ -30,7 +30,7 @@ const ManifestoSection = () => {
           share their vision and for users to dive into 3D content.
         </p>
       </div>
-      <div className="text-center flex flex-col gap-8 text-xl items-center justify-center">
+      <div className="text-center flex flex-col gap-16 text-xl items-center justify-center">
         <p>Join our Discord to try it out and follow the progress!</p>
         <a
           href="https://www.youtube.com/"
