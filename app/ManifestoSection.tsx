@@ -28,8 +28,16 @@ const ManifestoSection = () => {
           share their vision and for users to dive into 3D content.
         </p>
       </div>
-      <div className="text-center flex flex-col gap-4 text-xl">
+      <div className="text-center flex flex-col gap-8 text-xl items-center justify-center">
         <p>Join our Discord to try it out and follow the progress!</p>
+        <a
+          href="https://www.youtube.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className=" text-white font-medium px-6 py-3 bg-[rgb(88,101,242)] drop-shadow-[0_16px_40px_rgba(88,101,242,0.75)] text-center hover:scale-110 transition-all duration-300 ease-in-out"
+        >
+          Join
+        </a>
       </div>
     </section>
   );
