@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import DiscordIcon from "../public/assets/discord-icon.svg";
 
 const ManifestoSection = () => {
   return (
@@ -34,8 +36,13 @@ const ManifestoSection = () => {
           href="https://www.youtube.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className=" text-white font-medium px-6 py-3 bg-[rgb(88,101,242)] drop-shadow-[0_16px_40px_rgba(88,101,242,0.75)] text-center hover:scale-110 transition-all duration-300 ease-in-out"
+          className=" text-white font-medium px-6 py-3 bg-[rgb(88,101,242)] drop-shadow-[0_16px_40px_rgba(88,101,242,0.75)] text-center hover:scale-110 transition-all duration-300 ease-in-out flex items-center justify-center gap-2"
         >
+          <Image
+            src={DiscordIcon}
+            alt="Discord Icon"
+            className="w-6 h-6 fill-white"
+          />
           Join
         </a>
       </div>
