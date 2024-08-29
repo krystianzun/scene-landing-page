@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className}>
-      <body className="antialiased pt-40 pb-6">{children}</body>
+      <body className="antialiased pt-40 pb-40">{children}</body>
     </html>
   );
 }

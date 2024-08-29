@@ -5,7 +5,7 @@ import ManifestoSection from "./ManifestoSection";
 export default function Home() {
   return (
     <main className="">
-      <div>
+      <div className="mb-16">
         <HeroSection />
       </div>
       <div className="flex flex-col items-center justify-center">
